@@ -1,0 +1,18 @@
+[submodule "tools/phpcs"]
+	path = tools/phpcs
+	url = git@github.com:squizlabs/PHP_CodeSniffer.git
+[submodule "tools/vassh"]
+	path = tools/vassh
+	url = git@github.com:xwp/vassh.git
+[submodule "tools/wpcs"]
+	path = tools/wpcs
+	url = git@github.com:WordPress-Coding-Standards/WordPress-Coding-Standards.git
+[submodule "tools/terminus"]
+	path = tools/terminus
+	url = git@github.com:pantheon-systems/terminus.git
+[submodule "tools/nvm"]
+	path = tools/nvm
+	url = git@github.com:creationix/nvm.git
+[submodule "tools/atom"]
+	path = tools/atom
+	url = git@github.com:atom/atom.git
