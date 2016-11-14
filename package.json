@@ -1,0 +1,24 @@
+{
+  "name": "control",
+  "version": "0.1.0",
+  "description": "Local development environment configs and setup.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-sync": "^0.6.2",
+    "load-grunt-config": "^0.19.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kopepasah/control.git"
+  },
+  "author": "Justin Kopepasah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kopepasah/control/issues"
+  },
+  "homepage": "https://github.com/kopepasah/control#readme"
+}
