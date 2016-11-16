@@ -29,6 +29,8 @@ alias la='ls -lA'
 alias tower='gittower'
 # Shortcut for Virtual Box
 alias vb='VBoxManage'
+# Shortcut for VASSH
+alias vc='vassh'
 
 # PROMPT
 #
