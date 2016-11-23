@@ -11,6 +11,7 @@ module.exports = function( grunt ) {
 
 		data : {
 			location : {
+				root    : path.join( __dirname, '../../..' ),
 				home    : path.join( __dirname, '..' ),
 				control : path.join( __dirname ),
 				configs : path.join( __dirname, 'configs' ),
@@ -23,6 +24,9 @@ module.exports = function( grunt ) {
 
 	// Register grunt tasks.
 	grunt.registerTask(
-		'default', []
+		'update:atom', [
+			'clean:atom',
+			'shell:atom',
+		]
 	);
 }
