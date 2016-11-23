@@ -29,4 +29,11 @@ module.exports = function( grunt ) {
 			'shell:atom',
 		]
 	);
+
+	// Register grunt tasks.
+	grunt.registerTask(
+		'configs', [
+			'watch:configs',
+		]
+	);
 }
