@@ -30,7 +30,7 @@ alias tower='gittower'
 # Shortcut for Virtual Box
 alias vb='VBoxManage'
 # Shortcut for VASSH
-alias vc='vassh'
+alias vp='vassh wp'
 
 # PROMPT
 #
