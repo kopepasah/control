@@ -37,7 +37,7 @@ alias vp='vassh wp'
 # Source prompt helpers.
 source $CONTROL/configs/helpers/prompt.sh
 # Make prompt pretty.
-export PS1='\[\033[01;32m\]local $(control_git_info)\[\033[01;34m\]$(control_trim_directory_prompt) \[\033[0;37m\]$\[\033[00m\] '
+export PS1='\[\033[01;32m\]\u $(control_git_info)\[\033[01;34m\]$(control_trim_directory_prompt) \[\033[0;37m\]$\[\033[00m\] '
 
 # NAVIGATION
 #
