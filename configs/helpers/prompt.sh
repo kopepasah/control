@@ -28,6 +28,6 @@ function control_trim_directory_prompt() {
 	if [ -f "$PWD/.git/index" ]; then
 		echo -e "../${PWD##*/}"
 	else
-		echo -e ${PWD}
+		echo -e ${PWD/$HOME/\~}
 	fi
 }
