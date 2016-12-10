@@ -23,18 +23,11 @@ function control_git_info() {
 	fi
 }
 
-# If we are working in the www directory, trim the output to only display from
-# that directory up.
+# Trim directory up to tail if we are in a .git repository.
 function control_trim_directory_prompt() {
-	path=${PWD}
-	tail=${PWD##*/}
-
-	# First we shoud set the output and trim the user base locality.
-	output=${path/$HOME/\~}
-
-	if [[ ${tail} != "www" && ${output} == *"Developer/WordPress/VVV"* ]]; then
-		output=${output/Developer\/WordPress\/VVV\/www/...}
+	if [ -f "$PWD/.git/index" ]; then
+		echo -e "../${PWD##*/}"
+	else
+		echo -e ${PWD}
 	fi
-
-	echo -e ${output}
 }
