@@ -16,3 +16,6 @@
 [submodule "tools/atom"]
 	path = tools/atom
 	url = git@github.com:atom/atom.git
+[submodule "tools/vvv"]
+	path = tools/vvv
+	url = git@github.com:Varying-Vagrant-Vagrants/VVV.git
