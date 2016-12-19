@@ -25,7 +25,7 @@ function control_git_info() {
 
 # Trim directory up to tail if we are in a .git repository.
 function control_trim_directory_prompt() {
-	if [ -f "$PWD/.git/index" ]; then
+	if [ -f "$PWD/.git/index" ] || [ -f "$PWD/.git" ]; then
 		echo -e "../${PWD##*/}"
 	else
 		echo -e ${PWD/$HOME/\~}
