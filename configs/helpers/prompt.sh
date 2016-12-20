@@ -25,9 +25,18 @@ function control_git_info() {
 
 # Trim directory up to tail if we are in a .git repository.
 function control_trim_directory_prompt() {
-	if [ -f "$PWD/.git/index" ] || [ -f "$PWD/.git" ]; then
-		echo -e "../${PWD##*/}"
-	else
+	if [ -z "$(git status 2> /dev/null)" ]; then
 		echo -e ${PWD/$HOME/\~}
+	else
+		if [ -f "$PWD/.git/index" ] || [ -f "$PWD/.git" ]; then
+			if [ ${PWD/$HOME\//} == ${PWD##*/} ]; then
+				echo -e "~/${PWD##*/}"
+			else
+				echo -e "../${PWD##*/}"
+			fi
+		else
+			REPO=$(git rev-parse --show-toplevel)
+			echo -e "../"${REPO##*/}${PWD/$REPO/}
+		fi
 	fi
 }
