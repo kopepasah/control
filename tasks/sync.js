@@ -21,7 +21,6 @@ module.exports = {
 				src : [
 					'.bash_profile',
 					'.bashrc',
-					'.gitconfig',
 					'.inputrc',
 					'.vimrc',
 				],
