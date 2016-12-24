@@ -24,9 +24,16 @@ module.exports = function( grunt ) {
 
 	// Register grunt tasks.
 	grunt.registerTask(
-		'update:atom', [
+		'atom:update', [
 			'clean:atom',
-			'shell:atom',
+			'shell:atom_update',
+		]
+	);
+
+	grunt.registerTask(
+		'atom:update:beta', [
+			'clean:atom_beta',
+			'shell:atom_update_beta',
 		]
 	);
 

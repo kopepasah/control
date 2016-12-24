@@ -13,5 +13,12 @@ module.exports = {
 			force: true
 		},
 		src : [ '<%= location.root %>/Applications/Atom.app' ],
+	},
+
+	atom_beta : {
+		options: {
+			force: true
+		},
+		src : [ '<%= location.root %>/Applications/Atom Beta.app' ],
 	}
 };
