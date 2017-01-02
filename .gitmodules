@@ -19,3 +19,6 @@
 [submodule "tools/vvv"]
 	path = tools/vvv
 	url = https://github.com/Varying-Vagrant-Vagrants/VVV.git
+[submodule "tools/passage"]
+	path = tools/passage
+	url = https://github.com/kopepasah/passage.git
