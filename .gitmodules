@@ -10,12 +10,12 @@
 [submodule "tools/terminus"]
 	path = tools/terminus
 	url = https://github.com/pantheon-systems/terminus.git
-[submodule "tools/vassh"]
-	path = tools/vassh
-	url = https://github.com/xwp/vassh.git
 [submodule "tools/wpcs"]
 	path = tools/wpcs
 	url = https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git
 [submodule "tools/vvv"]
 	path = tools/vvv
 	url = https://github.com/Varying-Vagrant-Vagrants/VVV.git
+[submodule "tools/passage"]
+	path = tools/passage
+	url = https://github.com/kopepasah/passage.git
