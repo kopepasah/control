@@ -24,3 +24,4 @@ export PATH="$PATH:$CONTROL/tools/vassh"
 export PATH="$PATH:$CONTROL/tools/passage"
 
 export TERMINUS_PLUGINS_DIR="$CONTROL/dynamic/terminus/plugins"
+export VVV_SKIP_LOGO=true
