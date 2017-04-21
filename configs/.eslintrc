@@ -14,7 +14,7 @@
         "accessor-pairs": [2],
         "block-scoped-var": [2],
         "callback-return": [2],
-        "complexity": ["error", 10],
+        "complexity": ["error", 6],
         "consistent-return": [2],
         "consistent-this": [2, "self"],
         "constructor-super": [2],
