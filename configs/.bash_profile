@@ -22,6 +22,8 @@ fi
 export PATH="$PATH:$CONTROL/tools/terminus/bin"
 export PATH="$PATH:$CONTROL/tools/vassh"
 export PATH="$PATH:$CONTROL/tools/passage"
+export PATH="$PATH:$CONTROL/tools/yarn/bin"
+export PATH="$PATH:`yarn global bin`"
 
 export TERMINUS_PLUGINS_DIR="$CONTROL/dynamic/terminus/plugins"
 export VVV_SKIP_LOGO=true
