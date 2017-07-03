@@ -21,7 +21,10 @@ rules:
     - 2
     -
       style: uppercase
+
   indentation:
     - 2
     -
       size: tab
+  space-between-parens: 0
+  property-sort-order: 0
