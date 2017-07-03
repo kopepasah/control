@@ -19,3 +19,6 @@
 [submodule "tools/passage"]
 	path = tools/passage
 	url = https://github.com/kopepasah/passage.git
+[submodule "tools/yarn"]
+	path = tools/yarn
+	url = https://github.com/yarnpkg/yarn.git
