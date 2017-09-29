@@ -6,7 +6,7 @@ function control_git_info() {
 	color=""
 
 	# If directory is not clean color output red, otherwise color output green.
-	if [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit, working directory clean" ]]; then
+	if [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit, working tree clean" ]]; then
 		color="\033[01;31m"
 	else
 		color="\033[01;33m"
