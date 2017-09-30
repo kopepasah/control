@@ -1,17 +1,12 @@
 # Control
 
-Code, tools, config and setup scripts for local development environment (MacOS and usually on the latest stable version).
-
-__Assumptions__
-
-This repo assumes you have already installed Git, Node and NPM onto your local machine.
+Code, tools, config and setup scripts for local development environment (MacOS and usually on the latest stable version). Used when setting up a new computer or when required to work on an additional computer for a short period of time.
 
 ## Installation
 
-1. Clone the repository recursively to your user directory (or wherever really).
-2. Run `npm install`.
-3. Run `grunt atom:update` to build the latest stable version of Atom.
-4. Run `grunt sync:configs` to use the set configs within control (these will overwrite your local configs, so beware).
+0. Download Git (if not already installed)
+0. Clone Control recursively into the users home directory.
+0. Run the necessary scripts for this install, found in the `bash` directory.
 
 ---
 
@@ -37,4 +32,4 @@ There are several submodules included to get you up and running quickly, but con
 
 ## Contributing
 
-I am open to contributions to improve local development environment setup and if you are interested, please follow the [contributing.md](contributing.md) file for more information.
+I am open to contributions to improve local development environment setup and if you are interested, please fork and open a pull request.

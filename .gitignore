@@ -1,6 +1,2 @@
-# Mac
 .DS_Store
-
-# Control Ignores
-node_modules
 /dynamic/
