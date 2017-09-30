@@ -35,18 +35,18 @@ alias vp='vassh wp'
 # PROMPT
 #
 # Source prompt helpers.
-source $CONTROL/configs/helpers/prompt.sh
+source $CONTROL/bash/helpers/prompt.sh
 # Make prompt pretty.
 export PS1='\[\033[01;32m\]\u $(control_git_info)\[\033[01;34m\]$(control_trim_directory_prompt) \[\033[0;37m\]$\[\033[00m\] '
 
 # NAVIGATION
 #
 # Source navigation helpers.
-source $CONTROL/configs/helpers/nav.sh
+source $CONTROL/bash/helpers/nav.sh
 #
 # Enable programmable completion features.
 if [ -f /etc/bash_completion ]; then
 	source /etc/bash_completion
 fi
 # Support completion for terminus commands.
-source $CONTROL/configs/helpers/terminus.sh
+source $CONTROL/bash/helpers/terminus.sh
