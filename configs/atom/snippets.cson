@@ -1,0 +1,26 @@
+# PHP snippets
+'.source.php':
+  'Debugger':
+    'prefix': 'log'
+    'body': '$GLOBALS[\'debug\']->log( $1 ); // @codingStandardsIgnoreLine'
+  'Comment':
+    'prefix': 'cm'
+    'body': '/**\n * $1\n */'
+  'Package Comment':
+    'prefix': 'pcm'
+    'body': '/**\n * $1\n *\n * @package $2\n */'
+
+# JS snippets
+'.source.js':
+  'Comment':
+    'prefix': 'cm'
+    'body': '/**\n * $1\n */'
+  'Package Comment':
+    'prefix': 'pcm'
+    'body': '/**\n * $1\n *\n * @package $2\n */'
+
+# SCSS snippets
+'.source.scss':
+  'Media Query':
+    'prefix': 'mqs'
+    'body': '@include mqs($1) {$2}'

@@ -1,0 +1,179 @@
+"*":
+  "atom-easy-jsdoc": {}
+  core:
+    audioBeep: false
+    closeEmptyWindows: false
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "php-cs-fixer"
+      "jslint"
+      "linter-twig"
+      "language-gfm"
+      "language-babel"
+      "php-debug"
+      "busy-signal"
+      "emmet"
+      "minimap"
+      "linter-sass-lint"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".vagrant"
+      ".sass-cache"
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "limited"
+  "custom-title":
+    template: "<% if ( projectName ) %><%= projectName %><% else { %><%= fileName %><% } %>"
+  editor:
+    invisibles:
+      eol: "~"
+      tab: "┊"
+    showInvisibles: true
+    softTabs: false
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "2e3d785d-e7c5-f5db-5929-20527e0232d6"
+  "fuzzy-finder":
+    ignoredNames: [
+      "node_modules"
+    ]
+  "git-blame":
+    columnWidth: 326
+  jslint:
+    hideOnNoErrors: true
+    validateOnChange: true
+  linter:
+    lintOnChangeInterval: 5000
+  "linter-eslint":
+    disableFSCache: true
+    disableWhenNoEslintConfig: false
+    eslintrcPath: "/Users/koop/.control/configs/eslintrc.js"
+    fixOnSave: true
+  "linter-jscs":
+    preset: "wordpress"
+  "linter-jslint":
+    disableWhenNoJslintrcFileInPath: true
+  "linter-phpcs":
+    autoExecutableSearch: false
+    codeStandardOrConfigFile: "WordPress"
+    executablePath: "/Users/justin/.control/tools/phpcs/scripts/phpcs"
+    tabWidth: 4
+  "linter-sass-lint":
+    configFile: "/Users/justin/.control/configs/.sass-lint.yml"
+    globalNodePath: "/usr/local"
+    noConfigDisable: true
+  "linter-stylelint":
+    disableWhenNoConfig: false
+  "linter-ui-default":
+    panelHeight: 69
+  minimap: {}
+  "php-debug":
+    AutoExpandLocals: true
+    PathMaps: [
+      "/srv/www/wp/wordpress-develop/src;/Users/justin/.developer/wp/wordpress-develop/src"
+      "/srv/www/wp/vip-go;/Users/justin/.developer/wp/work/vip-go"
+    ]
+    ServerPort: 9000
+    currentConsoleHeight: "283px"
+    currentPanelHeight: "217px"
+    currentPanelMode: "bottom"
+    currentPanelWidth: "424px"
+  phpunit:
+    runOnSave: true
+  pigments:
+    filetypesForColorWords: [
+      "none"
+    ]
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        black: "#272a2d"
+        blue: "#2aa1ff"
+        cyan: "#73cddc"
+        green: "#b3e88f"
+        magenta: "#c92eff"
+        red: "#f75967"
+        white: "#cdd8f0"
+        yellow: "#eec96b"
+      zBright:
+        brightBlack: "#b1c0d1"
+        brightBlue: "#2ba1ff"
+        brightCyan: "#73cddc"
+        brightGreen: "#b3e88f"
+        brightMagenta: "#c92eff"
+        brightRed: "#f75967"
+        brightWhite: "#cdd8f0"
+        brightYellow: "#eec96b"
+    core: {}
+    style:
+      defaultPanelHeight: "120px"
+  "project-manager":
+    environmentSpecificProjects: true
+    sortBy: "group"
+  "sass-autocompile":
+    autoHidePanel: "Never"
+    compileCompressed: false
+    compileExpanded: true
+    compileFiles: "Only with first-line-comment"
+    compileOnSave: false
+    compressedFilenamePattern: "$1.css"
+    indentType: "Tab"
+    indentWidth: 1
+    showCompileSassItemInTreeViewContextMenu: false
+    showStartCompilingNotification: true
+  "seti-syntax": {}
+  "seti-ui":
+    compactView: true
+    disableAnimations: true
+    themeColor: "Red"
+  "spell-check":
+    locales: [
+      "en-US"
+    ]
+  "terminal-plus":
+    core:
+      autoRunCommand: "cd ~"
+      mapTerminalsTo: "File"
+    style:
+      theme: "inverse"
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+".css.source":
+  editor:
+    tabLength: 4
+".json.source":
+  editor:
+    softTabs: true
+    tabLength: 2
+    tabType: "soft"
+".md.text":
+  editor:
+    tabLength: 4
+".shell-session.text":
+  editor:
+    tabLength: 4
+".shell.source":
+  editor:
+    tabLength: 4
+".source.ts":
+  editor:
+    tabLength: 4
+".source.tsx":
+  editor:
+    tabLength: 4
+".source.yaml":
+  editor:
+    softTabs: true
+    tabLength: 2
+    tabType: "soft"

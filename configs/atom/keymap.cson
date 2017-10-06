@@ -1,0 +1,6 @@
+'.platform-darwin atom-workspace atom-text-editor:not([mini])':
+  'alt-shift-down': 'column-select:down'
+  'alt-shift-up': 'column-select:up'
+
+'atom-workspace':
+  'ctrl-cmd-o': 'application:reopen-project'

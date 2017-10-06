@@ -10,3 +10,5 @@ do
 
 	ln -s $CONTROL/configs/$i $HOME/$i
 done
+
+ln -s $CONTROL/configs/atom $HOME/.atom
