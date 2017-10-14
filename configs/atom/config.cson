@@ -65,12 +65,8 @@
   "linter-phpcs":
     autoExecutableSearch: false
     codeStandardOrConfigFile: "WordPress"
-    executablePath: "/Users/justin/.control/tools/phpcs/scripts/phpcs"
+    executablePath: "/Users/koop/.control/tools/phpcs/bin/phpcs"
     tabWidth: 4
-  "linter-sass-lint":
-    configFile: "/Users/justin/.control/configs/.sass-lint.yml"
-    globalNodePath: "/usr/local"
-    noConfigDisable: true
   "linter-stylelint":
     disableWhenNoConfig: false
   "linter-ui-default":
@@ -79,8 +75,8 @@
   "php-debug":
     AutoExpandLocals: true
     PathMaps: [
-      "/srv/www/wp/wordpress-develop/src;/Users/justin/.developer/wp/wordpress-develop/src"
-      "/srv/www/wp/vip-go;/Users/justin/.developer/wp/work/vip-go"
+      "/srv/www/wp/wordpress-develop/src;/Users/koop/.developer/wp/wordpress-develop/src"
+      "/srv/www/wp/vip-go;/Users/koop/.developer/wp/work/vip-go"
     ]
     ServerPort: 9000
     currentConsoleHeight: "283px"
