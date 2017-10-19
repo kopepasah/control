@@ -66,8 +66,7 @@
     codeStandardOrConfigFile: "WordPress"
     executablePath: "/Users/koop/.control/tools/phpcs/bin/phpcs"
     tabWidth: 4
-  "linter-stylelint":
-    disableWhenNoConfig: false
+  "linter-stylelint": {}
   "linter-ui-default":
     panelHeight: 69
   minimap: {}
