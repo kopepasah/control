@@ -57,7 +57,6 @@
     disableFSCache: true
     disableWhenNoEslintConfig: false
     eslintrcPath: "/Users/koop/.control/configs/eslintrc.js"
-    fixOnSave: true
   "linter-jscs":
     preset: "wordpress"
   "linter-jslint":
