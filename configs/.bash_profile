@@ -20,7 +20,6 @@ if [ -f $HOME/.bashrc ]; then
 fi
 
 export PATH="$PATH:$CONTROL/tools/terminus/bin"
-export PATH="$PATH:$CONTROL/tools/vassh"
 export PATH="$PATH:$CONTROL/tools/passage"
 
 export TERMINUS_PLUGINS_DIR="$HOME/.terminus/plugins"
