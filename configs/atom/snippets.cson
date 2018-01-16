@@ -24,3 +24,27 @@
   'Media Query':
     'prefix': 'mqs'
     'body': '@include mqs($1) {$2}'
+
+# Vue Snippets
+".text.html.vue":
+  "Vue Component":
+    "prefix": "template"
+    "body": """
+      <template>
+      	$3
+      </template>
+
+      <script>
+      export default {
+      	${1:name: '${2:name}',}
+      }
+      </script>
+
+      <style lang="scss" scoped>
+      </style>
+    """
+  "Router link":
+    "prefix": "router-link"
+    "body": """
+      <router-link :to="{ name: '' }"></router-link>
+    """

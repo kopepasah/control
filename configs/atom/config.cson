@@ -11,10 +11,12 @@
       "language-gfm"
       "language-babel"
       "php-debug"
-      "busy-signal"
-      "emmet"
       "minimap"
       "linter-sass-lint"
+      "project-viewer"
+      "emmet"
+      "atom-handlebars"
+      "atom-typescript"
     ]
     ignoredNames: [
       ".git"
@@ -28,10 +30,13 @@
     ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: []
-    telemetryConsent: "limited"
+    projectHome: "~/.developer"
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "no"
   "custom-title":
     template: "<% if ( projectName ) %><%= projectName %><% else { %><%= fileName %><% } %>"
   editor:
+    fontSize: 15
     invisibles:
       eol: "~"
       tab: "┊"
@@ -57,13 +62,23 @@
     disableFSCache: true
     disableWhenNoEslintConfig: false
     eslintrcPath: "/Users/koop/.control/configs/eslintrc.js"
+    fixOnSave: true
+    lintHtmlFiles: true
+    scopes: [
+      "source.js"
+      "source.jsx"
+      "source.js.jsx"
+      "source.babel"
+      "source.js-semantic"
+      "source.vue"
+    ]
   "linter-jscs":
     preset: "wordpress"
   "linter-jslint":
     disableWhenNoJslintrcFileInPath: true
   "linter-phpcs":
-    autoExecutableSearch: false
     codeStandardOrConfigFile: "WordPress"
+    disableWhenNoConfigFile: true
     executablePath: "/Users/koop/.control/tools/phpcs/bin/phpcs"
     tabWidth: 4
   "linter-stylelint": {}
@@ -73,8 +88,7 @@
   "php-debug":
     AutoExpandLocals: true
     PathMaps: [
-      "/srv/www/wp/wordpress-develop/src;/Users/koop/.developer/wp/wordpress-develop/src"
-      "/srv/www/wp/vip-go;/Users/koop/.developer/wp/work/vip-go"
+      "/srv/www/wp/wordpress-develop/src;/Users/koop/.developer/wp/core/src"
     ]
     ServerPort: 9000
     currentConsoleHeight: "283px"
@@ -109,10 +123,19 @@
         brightYellow: "#eec96b"
     core: {}
     style:
-      defaultPanelHeight: "120px"
+      animationSpeed: 3
+    toggles:
+      autoClose: true
+      loginShell: false
+      selectToCopy: false
   "project-manager":
     environmentSpecificProjects: true
     sortBy: "group"
+  "project-plus":
+    projectHome: " ~/.developer"
+    showPath: true
+  "project-viewer":
+    customWidth: 405
   "sass-autocompile":
     autoHidePanel: "Never"
     compileCompressed: false
