@@ -43,6 +43,13 @@
       <style lang="scss" scoped>
       </style>
     """
+  "Template":
+    "prefix": "template"
+    "body": """
+      <template>
+      	$1
+      </template>
+    """
   "Router link":
     "prefix": "router-link"
     "body": """

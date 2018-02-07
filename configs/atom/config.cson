@@ -10,13 +10,13 @@
       "linter-twig"
       "language-gfm"
       "language-babel"
-      "php-debug"
       "minimap"
       "linter-sass-lint"
       "project-viewer"
-      "emmet"
       "atom-handlebars"
       "atom-typescript"
+      "php-debug"
+      "emmet"
     ]
     ignoredNames: [
       ".git"
@@ -31,12 +31,10 @@
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: []
     projectHome: "~/.developer"
-    restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
   "custom-title":
     template: "<% if ( projectName ) %><%= projectName %><% else { %><%= fileName %><% } %>"
   editor:
-    fontSize: 15
     invisibles:
       eol: "~"
       tab: "┊"
@@ -121,7 +119,9 @@
         brightRed: "#f75967"
         brightWhite: "#cdd8f0"
         brightYellow: "#eec96b"
-    core: {}
+    core:
+      autoRunCommand: "source ~/.bash_profile && clear"
+    customTexts: {}
     style:
       animationSpeed: 3
     toggles:
