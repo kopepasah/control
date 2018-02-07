@@ -19,3 +19,6 @@
 [submodule "tools/passage"]
 	path = tools/passage
 	url = https://github.com/kopepasah/passage.git
+[submodule "tools/phpcs-sniffs/php-compatibility"]
+	path = tools/phpcs-sniffs/php-compatibility
+	url = https://kopepasah@github.com/wimg/PHPCompatibility.git
