@@ -4,8 +4,8 @@
 [submodule "tools/nvm"]
 	path = tools/nvm
 	url = https://github.com/creationix/nvm.git
-[submodule "tools/phpcs"]
-	path = tools/phpcs
+[submodule "tools/phpcs/core"]
+	path = tools/phpcs/core
 	url = https://github.com/squizlabs/PHP_CodeSniffer.git
 [submodule "tools/terminus"]
 	path = tools/terminus
