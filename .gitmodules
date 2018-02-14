@@ -10,8 +10,8 @@
 [submodule "tools/terminus"]
 	path = tools/terminus
 	url = https://github.com/pantheon-systems/terminus.git
-[submodule "tools/wpcs"]
-	path = tools/wpcs
+[submodule "tools/phpcs/sniffs/wpcs"]
+	path = tools/phpcs/sniffs/wpcs
 	url = https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git
 [submodule "tools/vvv"]
 	path = tools/vvv
@@ -19,6 +19,6 @@
 [submodule "tools/passage"]
 	path = tools/passage
 	url = https://github.com/kopepasah/passage.git
-[submodule "tools/phpcs-sniffs/php-compatibility"]
-	path = tools/phpcs-sniffs/php-compatibility
+[submodule "tools/phpcs/sniffs/compatibility"]
+	path = tools/phpcs/sniffs/compatibility
 	url = https://kopepasah@github.com/wimg/PHPCompatibility.git
