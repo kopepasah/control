@@ -22,3 +22,6 @@
 [submodule "tools/phpcs/sniffs/compatibility"]
 	path = tools/phpcs/sniffs/compatibility
 	url = https://kopepasah@github.com/wimg/PHPCompatibility.git
+[submodule "tools/phpcs/sniffs/wp-vip"]
+	path = tools/phpcs/sniffs/wp-vip
+	url = https://github.com/Automattic/VIP-Coding-Standards.git
