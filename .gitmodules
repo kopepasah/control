@@ -25,3 +25,6 @@
 [submodule "tools/phpcs/sniffs/wp-vip"]
 	path = tools/phpcs/sniffs/wp-vip
 	url = https://github.com/Automattic/VIP-Coding-Standards.git
+[submodule "configs/vim/colors/onedark"]
+	path = configs/vim/colors/onedark
+	url = https://github.com/joshdick/onedark.vim.git

@@ -1,5 +1,6 @@
 " --- Color Scheme
 syntax enable
+colorscheme onedark
 
 " --- List Characters
 set listchars=tab:>-,trail:~,extends:>,precedes:<
